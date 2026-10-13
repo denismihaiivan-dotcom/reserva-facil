@@ -16,9 +16,8 @@ Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el ent
     - Tarifa: 2€ / 30 minutos
     - Equipamiento: Incluye *Pack Práctica* con mayor cantidad de material de juego.
     - Garantia: 15 €
-    
 - **Mesa Profesional**
-    - Tarifa: 4 € / 30 minutos
+     - Tarifa: 4 € / 30 minutos
     - Equipamiento: Incluye *Pack Profesional* enfocado a un uso técnico.
     - Garantia: 20 €
 
