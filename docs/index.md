@@ -1,15 +1,16 @@
 # Tienda
 # Ping Pong Smash Table Tennis
+
 # Descripcion
 
 En Ping Pong Smash Table Tennis **(PPST)**, disponemos de 65 pabellones equipados en toda España para alquiler de mesas, espacios de juego y material deportivo adaptado al tennis de mesa.
 
 
-## Servicios y Equipamientos
+# Servicios y Equipamientos
 
 Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el entrenamiento nivel profesional.
 
-## Categoria de Reserva 
+# Categoria de Reserva 
 - **Mesa de Práctica**
     - Tarifa: 2€ / 30 minutos
     - Equipamiento: Incluye *Pack Práctica* con mayor cantidad de material de juego.
