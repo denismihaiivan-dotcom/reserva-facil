@@ -1,7 +1,8 @@
 site_name: Documentació del Projecte
 
 theme:
-  name: bootstrap
+  name: null
+  custom_dir: 'cinder'
 
 nav:
   - Inici: index.md
