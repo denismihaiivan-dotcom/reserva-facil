@@ -11,14 +11,17 @@ En Ping Pong Smash Table Tennis **(PPST)**, disponemos de 65 pabellones equipado
 Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el entrenamiento nivel profesional.
 
 # Categoria de Reserva 
+
 - **Mesa de Práctica**
     - Tarifa: 2€ / 30 minutos
     - Equipamiento: Incluye *Pack Práctica* con mayor cantidad de material de juego.
     - Garantia: 15 €
+    
 - **Mesa Profesional**
     - Tarifa: 4 € / 30 minutos
     - Equipamiento: Incluye *Pack Profesional* enfocado a un uso técnico.
     - Garantia: 20 €
+
     ### Duración y Horarios
 
     - Duración de las sesiones: 30, 60 o 90 minutos.
