@@ -21,9 +21,23 @@ Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el ent
     - Equipamiento: Incluye *Pack Profesional* enfocado a un uso técnico.
     - Garantia: 20 €
 
-    ### Duración y Horarios
+## Datos Mínimos de la Reserva
 
-    - Duración de las sesiones: 30, 60 o 90 minutos.
+| Dato | Descripción / Información |
+| :--- | :--- |
+| **Nombres y Apellidos** | Datos completos del cliente |
+| **Teléfono** | Teléfono de contacto |
+| **Correo electrónico** | Correo del cliente |
+| **Fecha de reserva** | Día de la reserva |
+| **Hora de inicio** | Hora a la que comienza la reserva |
+| **Duración** | 30 min, 60 min o 90 min |
+| **Tipo de mesa** | Mesa de práctica o mesa profesional |
+| **Pack** | Pack Práctica o Pack Profesional |
+
+
+ ### Duración y Horarios
+
+ - Duración de las sesiones: 30, 60 o 90 minutos.
     - Horario de apertura: Lunes a sábado de 8:00 a 13:30 h y de 16:00 a 20:00 h **(Domingos cerrados).**
 
     *Condiciones de la garantía*: La garantía se devuelve íntegramente al finalizar la sesión. El cliente puede descontar de ella el material consumido o abonarlo por separado para recuperar la totalidad del importe.
