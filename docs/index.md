@@ -41,7 +41,7 @@ Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el ent
 
     *Condiciones de la garantía*: La garantía se devuelve íntegramente al finalizar la sesión. El cliente puede descontar de ella el material consumido o abonarlo por separado para recuperar la totalidad del importe.
     
- ## Sistema de Reserva
+## Sistema de Reserva
 
     Las reservas se gestionan de forma automatizada mediante un **asistente de Inteligencia Artificial (IA)** integrado en nuestra plataforma web:
 
