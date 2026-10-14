@@ -52,7 +52,7 @@ Las reservas se gestionan de forma automatizada mediante un **asistente de Intel
  1. **Datos requeridos**: Para formalizar la solicitud es necesario indicar nombre completo, número de teléfono y correo electrónico.
  1. **Confirmación**: Tras verificar los datos de la reserva, el cliente confirma la solicitud para finalizar el proceso.   
 
- ## Funcionalidades para el Personal
+## Funcionalidades para el Personal
 
 El personal de los pabellones dispone de acceso a la plataforma para las siguientes tareas:
 - Consultar la lista de reservas confirmadas por el sistema en tiempo real.
