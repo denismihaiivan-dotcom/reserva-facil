@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: pip install mkdocs-bootstrap
+      - run: pip install mkdocs-bootstrap mkdocs-glightbox
 
       - run: mkdocs build
 
