@@ -1,6 +1,6 @@
 # Tienda
 # Ping Pong Smash Table Tennis
-![Sample chart](D:\proyecto\imagenes_Pagina)
+![Sample chart](\proyecto\imagenes_Pagina)
 # Descripcion
 
 En Ping Pong Smash Table Tennis **(PPST)**, disponemos de 65 pabellones equipados en toda España para alquiler de mesas, espacios de juego y material deportivo adaptado al tennis de mesa.
