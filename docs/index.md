@@ -34,8 +34,7 @@ Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el ent
 | **Tipo de mesa** | Mesa de práctica o mesa profesional |
 | **Pack** | Pack Práctica o Pack Profesional |
 
-
- ### Duración y Horarios
+### Duración y Horarios
 
  - Duración de las sesiones: 30, 60 o 90 minutos.
     - Horario de apertura: Lunes a sábado de 8:00 a 13:30 h y de 16:00 a 20:00 h **(Domingos cerrados).**
