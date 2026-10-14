@@ -41,11 +41,11 @@ Ofrecemos instalaciones adaptadas tanto para la práctica libre como para el ent
 
     *Condiciones de la garantía*: La garantía se devuelve íntegramente al finalizar la sesión. El cliente puede descontar de ella el material consumido o abonarlo por separado para recuperar la totalidad del importe.
     
-## Sistema de Reserva
+ ## Sistema de Reserva
 
-    Las reservas se gestionan de forma automatizada mediante un **asistente de Inteligencia Artificial (IA)** integrado en nuestra plataforma web:
+Las reservas se gestionan de forma automatizada mediante un **asistente de Inteligencia Artificial (IA)** integrado en nuestra plataforma web:
 
-    1. **Consulta de disponibilidad**: El usuario indica el tipo de mesa, fecha, hora de inicio y duración deseada a través del chat.
-    1. **Verificación instantánea**: El sistema comprueba la disponibilidad en la base de datos para evitar duplicidades de horario. En caso de no haber espacio libre, la IA sugerirá horarios o mesas alternativas.   
-    1. **Datos requeridos**: Para formalizar la solicitud es necesario indicar nombre completo, número de teléfono y correo electrónico.
-    1. **Confirmación**: Tras verificar los datos de la reserva, el cliente confirma la solicitud para finalizar el proceso.   
+ 1. **Consulta de disponibilidad**: El usuario indica el tipo de mesa, fecha, hora de inicio y duración deseada a través del chat.
+ 1. **Verificación instantánea**: El sistema comprueba la disponibilidad en la base de datos para evitar duplicidades de horario. En caso de no haber espacio libre, la IA sugerirá horarios o mesas alternativas.   
+ 1. **Datos requeridos**: Para formalizar la solicitud es necesario indicar nombre completo, número de teléfono y correo electrónico.
+ 1. **Confirmación**: Tras verificar los datos de la reserva, el cliente confirma la solicitud para finalizar el proceso.   
