@@ -5,6 +5,8 @@
 
 En Ping Pong Smash Table Tennis **(PPST)**, disponemos de 65 pabellones equipados en toda España para alquiler de mesas, espacios de juego y material deportivo adaptado al tennis de mesa.
 
+### Problema que resuelve
+El proceso manual de gestión de reservas genera incidencias como solapamiento de horarios y demoras en la atención al cliente. Este sistema automatizado mediante Inteligencia Artificial permite consultar la disponibilidad en tiempo real y tramitar las reservas de forma autónoma, rápida y sin errores de duplicidad.
 
 ## Servicios y Equipamientos
 
@@ -49,3 +51,18 @@ Las reservas se gestionan de forma automatizada mediante un **asistente de Intel
  1. **Verificación instantánea**: El sistema comprueba la disponibilidad en la base de datos para evitar duplicidades de horario. En caso de no haber espacio libre, la IA sugerirá horarios o mesas alternativas.   
  1. **Datos requeridos**: Para formalizar la solicitud es necesario indicar nombre completo, número de teléfono y correo electrónico.
  1. **Confirmación**: Tras verificar los datos de la reserva, el cliente confirma la solicitud para finalizar el proceso.   
+
+ ## Funcionalidades para el Personal
+
+El personal de los pabellones dispone de acceso a la plataforma para las siguientes tareas:
+- Consultar la lista de reservas confirmadas por el sistema en tiempo real.
+- Gestionar la entrega y recepción de los packs de material asignados a cada reserva.
+- Revisar el estado del material entregado y procesar la devolución de la garantía al cliente.
+
+## Límites de la Demostración
+
+- La versión actual corresponde a un entorno de simulación y pruebas del proceso de reserva.
+- Las transacciones de pago de tarifa y depósito de garantía no involucran dinero real.
+- Las solicitudes de reserva están restringidas al horario operativo comercial configurado.
+
+## Enlaces y Recursos
