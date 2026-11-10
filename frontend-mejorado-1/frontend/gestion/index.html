@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Panell de gestió de les reserves de Ping Pong Smash.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Gestió de reserves | Ping Pong Smash</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="module" src="/gestion/gestion.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <h1>Gestió de reserves</h1>
+      <p>Consulta i administra les reserves de Ping Pong Smash.</p>
+      <nav aria-label="Navegació de gestió">
+        <a href="/">Tornar a la pàgina principal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut-principal">
+    <section aria-labelledby="llistat-title">
+      <header>
+        <h2 id="llistat-title">Reserves registrades</h2>
+        <p>Actualitza el llistat per consultar-ne l'estat més recent.</p>
+      </header>
+
+      <!-- Aquest panell necessita protecció d'accés al servidor web (per exemple, Nginx). -->
+      <p id="admin-status" role="status" aria-live="polite" aria-atomic="true">
+        Preparant el llistat de reserves...
+      </p>
+      <button id="refresh" type="button">Actualitzar reserves</button>
+
+      <div class="table-container" role="region" aria-label="Taula de reserves" tabindex="0">
+        <table>
+          <caption>Llistat de reserves i accions disponibles</caption>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Data</th>
+              <th scope="col">Hora</th>
+              <th scope="col">Jugadors</th>
+              <th scope="col">Estat</th>
+              <th scope="col">Accions</th>
+            </tr>
+          </thead>
+          <tbody id="reservations">
+            <tr>
+              <td colspan="7">Les reserves apareixeran aquí quan es carreguin.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="editar-title">
+      <header>
+        <h2 id="editar-title">Editar reserva</h2>
+        <p>Selecciona una reserva del llistat per carregar-ne les dades en aquest formulari.</p>
+      </header>
+
+      <form id="edit-form" autocomplete="off">
+        <div class="form-field">
+          <label for="edit-id">Identificador</label>
+          <input id="edit-id" name="id" type="text" readonly required>
+        </div>
+        <div class="form-field">
+          <label for="edit-name">Nom</label>
+          <input id="edit-name" name="name" type="text" required minlength="2" maxlength="100">
+        </div>
+        <div class="form-field">
+          <label for="edit-date">Data</label>
+          <input id="edit-date" name="date" type="date" required>
+        </div>
+        <div class="form-field">
+          <label for="edit-time">Hora</label>
+          <input id="edit-time" name="time" type="time" required>
+        </div>
+        <div class="form-field">
+          <label for="edit-diners">Nombre de jugadors</label>
+          <input id="edit-diners" name="diners" type="number" min="1" max="8" step="1" required>
+        </div>
+        <button type="submit">Desar els canvis</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Ping Pong Smash</p>
+    <a href="/">Tornar a la pàgina principal</a>
+  </footer>
+</body>
+</html>

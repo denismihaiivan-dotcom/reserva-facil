@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reserva la teva taula a Ping Pong Smash i consulta la disponibilitat de manera senzilla.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Ping Pong Smash | Reserva la teva taula</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="brand" href="/" aria-label="Ping Pong Smash, inici">
+        <span class="brand-name">Ping Pong Smash</span>
+      </a>
+      <p class="intro-text">El teu espai per gaudir del ping-pong.</p>
+      <nav aria-label="Navegació principal">
+        <ul>
+          <li><a href="#reserva">Reservar una taula</a></li>
+          <li><a href="#assistent">Assistent</a></li>
+          <li><a href="#condicions">Informació</a></li>
+          <li><a href="/gestion/">Gestió</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contingut-principal">
+    <section id="reserva" aria-labelledby="reserva-title">
+      <header>
+        <h2 id="reserva-title">Reserva una taula</h2>
+        <p>Omple les dades següents per consultar els horaris disponibles i fer la teva reserva.</p>
+      </header>
+
+      <form id="booking-form" autocomplete="on">
+        <div class="form-field">
+          <label for="booking-name">Nom</label>
+          <input id="booking-name" name="name" type="text" autocomplete="name"
+                 placeholder="El teu nom" required minlength="2" maxlength="100">
+        </div>
+
+        <div class="form-field">
+          <label for="booking-date">Data</label>
+          <input id="booking-date" name="date" type="date" required>
+        </div>
+
+        <div class="form-field">
+          <label for="booking-time">Hora</label>
+          <select id="booking-time" name="time" required disabled>
+            <option value="">Selecciona primer una data</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="booking-diners">Nombre de jugadors</label>
+          <input id="booking-diners" name="diners" type="number" min="1" max="8"
+                 step="1" inputmode="numeric" required>
+        </div>
+
+        <button type="submit">Confirmar reserva</button>
+      </form>
+      <p id="booking-status" role="status" aria-live="polite" aria-atomic="true">
+        Selecciona una data per consultar la disponibilitat.
+      </p>
+    </section>
+
+    <section id="assistent" aria-labelledby="assistent-title">
+      <header>
+        <h2 id="assistent-title">Assistent</h2>
+        <p>Tens algun dubte? Escriu el teu missatge i t'ajudarem.</p>
+      </header>
+
+      <div id="messages" role="log" aria-live="polite" aria-relevant="additions" aria-label="Conversa amb l'assistent">
+        <p>Hola! Soc l'assistent de Ping Pong Smash. En què et puc ajudar?</p>
+      </div>
+
+      <form id="chat-form" autocomplete="off">
+        <div class="form-field">
+          <label for="chat-message">El teu missatge</label>
+          <input id="chat-message" name="message" type="text" maxlength="500"
+                 placeholder="Escriu aquí la teva consulta..." required>
+        </div>
+        <button type="submit">Enviar missatge</button>
+      </form>
+      <p id="chat-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+
+    <section id="condicions" aria-labelledby="condicions-title">
+      <header>
+        <h2 id="condicions-title">Informació de les reserves</h2>
+      </header>
+      <p>Tria la data, consulta les franges horàries disponibles i indica quants jugadors sereu. La disponibilitat es mostrarà després de seleccionar una data.</p>
+      <p>La reserva queda subjecta a la confirmació del sistema. Consulta els horaris disponibles abans d'enviar el formulari.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span>Ping Pong Smash</span>. Tots els drets reservats.</p>
+    <a href="#contingut-principal">Tornar a l'inici</a>
+  </footer>
+</body>
+</html>
