@@ -30,7 +30,9 @@ docker compose up -d --build nginx
 docker compose ps
 ```
 
-Abrir http://localhost:8085. El botón del formulario indica la tarea pendiente y no guarda datos.
+Abrir http://localhost:8085. No abras `index.html` directamente desde el disco: la página usa
+rutas desde la raíz y módulos JavaScript que necesitan servirse por HTTP. El botón del formulario
+indica la tarea pendiente y no guarda datos.
 Los servicios del perfil `taller` no arrancan todavía. Tras completar sus TODO:
 
 ```bash

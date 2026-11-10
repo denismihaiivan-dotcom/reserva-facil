@@ -16,7 +16,9 @@ cp .env.example .env
 docker compose up -d --build nginx
 ```
 
-Abre http://localhost:8085. Verás la maqueta. La API del proxy devuelve 501 hasta F3;
-las rutas Express, hasta F4/F5. No rellenar los TODO todavía NO es un error del servidor.
+Abre http://localhost:8085. No abras `index.html` directamente desde el disco: la página usa
+rutas desde la raíz y módulos JavaScript, así que debe servirse por HTTP. Verás la maqueta.
+La API del proxy devuelve 501 hasta F3; las rutas Express, hasta F4/F5. No rellenar los TODO
+todavía NO es un error del servidor.
 
 TODO F8: convertir este README en la guía técnica final de vuestra versión.
