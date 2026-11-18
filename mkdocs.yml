@@ -5,8 +5,11 @@ plugins:
   - glightbox
 
 theme:
-  name: null
-  custom_dir: 'cinder'
+  name: bootstrap
+  locale: es
+
+extra_css:
+  - css/custom.css
 
 nav:
   - Inici: index.md

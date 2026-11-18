@@ -1,0 +1,245 @@
+:root {
+  --ink: #18251f;
+  --forest: #19372c;
+  --forest-deep: #11271f;
+  --lime: #d3f27a;
+  --paper: #f3f4ed;
+  --surface: #fffefa;
+  --line: #e2e7dc;
+  --line-strong: #cbd4c8;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 92% 18rem, rgb(211 242 122 / 18%), transparent 24rem),
+    var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+.navbar,
+.navbar-inverse,
+.navbar-fixed-top {
+  background:
+    radial-gradient(circle at 88% 20%, rgb(211 242 122 / 13%) 0 5rem, transparent 5.1rem),
+    linear-gradient(118deg, var(--forest-deep), var(--forest)) !important;
+  border: 0;
+  box-shadow: 0 8px 24px rgb(23 36 31 / 10%);
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  color: #fffefa !important;
+  font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background: rgb(255 255 255 / 8%) !important;
+  border-radius: 999px;
+}
+
+.container {
+  max-width: 1120px;
+}
+
+.container-fluid {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+main,
+.col-md-9,
+.bs-sidebar + div,
+[role="main"] {
+  min-width: 0;
+}
+
+[role="main"] {
+  padding: clamp(1.35rem, 4vw, 2.35rem);
+  border: 1px solid rgb(226 231 220 / 88%);
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 18px 48px rgb(23 36 31 / 7%);
+}
+
+[role="main"] h1,
+[role="main"] h2,
+[role="main"] h3,
+[role="main"] h4 {
+  color: var(--forest-deep);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  scroll-margin-top: 6rem;
+}
+
+[role="main"] h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+[role="main"] h2 {
+  margin: 2rem 0 0.8rem;
+  font-size: clamp(1.45rem, 3vw, 1.9rem);
+}
+
+[role="main"] h3 {
+  margin: 1.5rem 0 0.6rem;
+  font-size: 1.25rem;
+}
+
+[role="main"] p {
+  margin: 0 0 1rem;
+  color: #30433a;
+}
+
+[role="main"] strong {
+  color: var(--ink);
+}
+
+[role="main"] a {
+  color: #315c43;
+  font-weight: 700;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+[role="main"] a:hover {
+  color: #426d38;
+}
+
+[role="main"] ul,
+[role="main"] ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+[role="main"] li {
+  margin: 0.25rem 0;
+}
+
+[role="main"] li li {
+  margin-left: 0.25rem;
+}
+
+[role="main"] img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto;
+  border-radius: 18px;
+  box-shadow: 0 14px 36px rgb(23 36 31 / 12%);
+}
+
+.table-responsive,
+[role="main"] table {
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+
+[role="main"] table th,
+[role="main"] table td {
+  padding: 0.8rem 0.9rem;
+  border-top: 1px solid var(--line);
+  border-left: 0;
+  vertical-align: middle;
+}
+
+[role="main"] table th {
+  border-top: 0;
+  background: #f1f5e9;
+  color: #30433a;
+  font-size: 0.83rem;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+[role="main"] table td {
+  color: #30433a;
+  font-size: 0.91rem;
+}
+
+[role="main"] table tbody tr:hover {
+  background: #fafbf7;
+}
+
+[role="main"] blockquote {
+  margin: 1.25rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--lime);
+  border-radius: 12px;
+  background: #f6f7f2;
+  color: #30433a;
+}
+
+[role="main"] hr {
+  border-top-color: var(--line-strong);
+}
+
+[role="main"] code {
+  border-radius: 6px;
+  background: #eef1e8;
+  color: #30433a;
+}
+
+[role="main"] pre {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #18251f;
+  color: #fffefa;
+  overflow-x: auto;
+}
+
+[role="main"] pre code {
+  background: transparent;
+  color: inherit;
+}
+
+.bs-sidebar {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 14px 36px rgb(23 36 31 / 6%);
+}
+
+.bs-sidebar .nav > li > a {
+  color: #30433a;
+  border-radius: 8px;
+}
+
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li.active > a {
+  background: #f1f5e9;
+  color: var(--forest-deep);
+  font-weight: 700;
+}
+
+.glightbox-clean .gdesc-inner {
+  background: var(--forest-deep);
+}
+
+@media (max-width: 767px) {
+  [role="main"] {
+    padding: 1.25rem;
+    border-radius: 19px;
+  }
+
+  [role="main"] table {
+    display: block;
+  }
+
+  .navbar-brand {
+    max-width: 78%;
+  }
+}
