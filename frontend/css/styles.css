@@ -1,11 +1,11 @@
 :root {
   color-scheme: light;
-  --ink: #17241f;
-  --ink-soft: #50615a;
-  --forest: #19372c;
-  --forest-deep: #11271f;
-  --lime: #d3f27a;
-  --lime-strong: #b6df53;
+  --ink: #000000;
+  --ink-soft: #000000;
+  --forest: #000000;
+  --forest-deep: #000000;
+  --lime: #000000;
+  --lime-strong: #000000;
   --paper: #f3f4ed;
   --surface: #fffefa;
   --line: #e2e7dc;
