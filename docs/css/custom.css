@@ -155,14 +155,14 @@ main,
 [role="main"] table th {
   border-top: 0;
   background: #f1f5e9;
-  color: #30433a;
+  color: #000000;
   font-size: 0.83rem;
   font-weight: 750;
   white-space: nowrap;
 }
 
 [role="main"] table td {
-  color: #30433a;
+  color: #000000;
   font-size: 0.91rem;
 }
 
@@ -177,7 +177,7 @@ main,
   border-left: 4px solid var(--lime);
   border-radius: 12px;
   background: #f6f7f2;
-  color: #30433a;
+  color: #000000;
 }
 
 [role="main"] hr {
@@ -187,7 +187,7 @@ main,
 [role="main"] code {
   border-radius: 6px;
   background: #eef1e8;
-  color: #30433a;
+  color: #000000;
 }
 
 [role="main"] pre {
@@ -195,7 +195,7 @@ main,
   padding: 1rem;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: #18251f;
+  background: #000000;
   color: #fffefa;
   overflow-x: auto;
 }
